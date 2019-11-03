@@ -18,4 +18,7 @@ public abstract class RandomNumberFactory {
     public static Integer createInteger(Integer min, Integer max) {
         return createFloat(min, max).intValue();
     }
+
+
+
 }
